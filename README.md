@@ -32,7 +32,7 @@
 ## Descrição
 O objetivo do projeto é ser um diferencial entre os restaurantes, a agilidade que ele entrega para os clientes. O nosso foco é oferecer a possiblidade de reservar uma mesa e realizar o pedido antes mesmo de sair de casa
 
-## Funcionalidades ⚙️
+## Funcionalidades
 ✔️ Cadastros/Autenticações em geral
 
 ✔️ Escolher mesa
