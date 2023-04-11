@@ -35,57 +35,50 @@ O objetivo do projeto é ser um diferencial entre os restaurantes, a agilidade q
 ## Funcionalidades
 ✔️ Cadastros/Autenticações em geral
 
-✔️ Escolher mesa
-
-✔️ Selecionar horário da reserva
-
-✔️ Observações para a reserva
-
-✔️ Confirmar reserva
-
-✔️ Cancelar reserva
-
 ## Distribuição
 Link ainda não disponível.
 
-## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+## Pré-requisitos   
+Apache NetBeans IDE 15 (ou versão superior);
+MySQL Workbench 8.0 CE (ou versão superior);
+JDK (Java Development Kit) versão 6, 7 ou 8;
+Aparelho disponível para rodar o projeto.
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+Passo a passo ainda incompleto.
 
 ## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
+Realizados testes de login e autenticação até o presente momento.
 
-## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+## Banco de Dados
+Banco de dados utilizado: MySQL (.sql)
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+![Java](https://img.shields.io/badge/Java-orange)
+![Java-Swing](https://img.shields.io/badge/JavaSwing-critical)
 
 ## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
+Ainda nem um problema foi diagnosticado.
 
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
+## Recursos a inserir
 
-📝 Tarefa 1
+📝 Escolher mesa
 
-📝 Tarefa 2
+📝 Selecionar horário da reserva
 
-📝 Tarefa 3
+📝 Observações para a reserva
+
+📝 Confirmar reserva
+
+📝 Cancelar reserva
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+Axel Biral - axelalves2811@gmail.com;
+Antonio Celso - ca727707@gmail.com;
+Cauã Vieira - cauasilva8@gmail.com;
+Eduardo Toste - duciochetti@gmail.com;
 
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ 2023 - Serve Smart
