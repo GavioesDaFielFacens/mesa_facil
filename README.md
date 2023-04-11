@@ -11,23 +11,23 @@
 
 🔹 [Pré-requisitos](#Pré-requisitos)
 
-🔹 [Como rodar a aplicação](#Como rodar a aplicação)
+🔹 [Como rodar a aplicação](#Como_rodar_a_aplicação)
 
-🔹 [Testes realizados](#Testes realizados)
+🔹 [Testes realizados](#Testes_realizados)
 
-🔹 [Banco de Dados](#Banco de Dados)
+🔹 [Banco de Dados](#Banco_de_Dados)
 
-🔹 [Linguagens, dependências e libs utilizadas](#Linguagens, dependências e libs utilizadas)
+🔹 [Linguagens, dependências e libs utilizadas](#Linguagens_dependências_e_libs_utilizadas)
 
-🔹 [Novos Recursos](#Novos Recursos) 
+🔹 [Novos Recursos](#Novos_Recursos) 
 
-🔹 [Resolvendo problemas](#Resolvendo problemas) 
+🔹 [Resolvendo problemas](#Resolvendo_problemas) 
 
-🔹 [Recursos inseridos](#Recursos inseridos) 
+🔹 [Recursos a inserir](#Recursos_a_inserir) 
 
 🔹 [Desenvolvedores/Contribuintes](#Desenvolvedores/Contribuintes)
 
-🔹 [Informações Extras](#Informações Extras)
+🔹 [Informações Extras](#Informações_Extras)
 
 ## Descrição
 O objetivo do projeto é ser um diferencial entre os restaurantes, a agilidade que ele entrega para os clientes. O nosso foco é oferecer a possiblidade de reservar uma mesa e realizar o pedido antes mesmo de sair de casa
@@ -44,23 +44,23 @@ MySQL Workbench 8.0 CE (ou versão superior);
 JDK (Java Development Kit) versão 6, 7 ou 8;
 Aparelho disponível para rodar o projeto.
 
-## Como rodar a aplicação 
+## Como_rodar_a_aplicação 
 Passo a passo ainda incompleto.
 
-## Testes realizados
+## Testes_realizados
 Realizados testes de login e autenticação até o presente momento.
 
-## Banco de Dados
+## Banco_de_Dados
 Banco de dados utilizado: MySQL (.sql)
 
-## Linguagens, dependencias e libs utilizadas 📚
+## Linguagens_dependências_e_libs_utilizadas
 ![Java](https://img.shields.io/badge/Java-orange)
 ![Java-Swing](https://img.shields.io/badge/JavaSwing-critical)
 
-## Resolvendo Problemas 
-Ainda nem um problema foi diagnosticado.
+## Resolvendo_problemas 
+Ainda nenhum problema foi diagnosticado.
 
-## Recursos a inserir
+## Recursos_a_inserir
 
 📝 Escolher mesa
 
@@ -77,6 +77,9 @@ Axel Biral - axelalves2811@gmail.com;
 Antonio Celso - ca727707@gmail.com;
 Cauã Vieira - cauasilva8@gmail.com;
 Eduardo Toste - duciochetti@gmail.com;
+
+## Informações_Extras
+...
 
 ## Licença
 The MIT License (MIT)
