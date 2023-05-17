@@ -1,4 +1,4 @@
-# Serve Smart 📲
+# Mesa Facil 📲
 ## Versão 1.0
 ## Status do projeto: ✔️ Concluído | ⚠️ Em espera | ❌ Cancelado
 
