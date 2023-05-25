@@ -84,4 +84,4 @@ Eduardo Toste - duciochetti@gmail.com;
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ 2023 - 2023 Gaviões da Fiel - Mesa Facil teste
+## Copyright ©️ 2023 - 2023 Gaviões da Fiel - Mesa Facil
