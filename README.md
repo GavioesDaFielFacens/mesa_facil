@@ -35,6 +35,8 @@ O objetivo do projeto é ser um diferencial entre os restaurantes, a agilidade q
 ## Funcionalidades
 ✔️ Cadastros/Autenticações em geral
 
+✔️ Escolher mesa
+
 ## Distribuição
 Link ainda não disponível.
 
@@ -61,8 +63,6 @@ Banco de dados utilizado: MySQL (.sql)
 Ainda nenhum problema foi diagnosticado.
 
 ## Recursos_a_inserir
-
-📝 Escolher mesa
 
 📝 Selecionar horário da reserva
 
