@@ -3,7 +3,7 @@ package view;
 
 import Classes.Cliente;
 import Classes.Mesa;
-import conexão.MySQL;
+import Conexao.MySQL;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 
@@ -21,7 +21,7 @@ public class SelMesas extends javax.swing.JFrame {
         
         mesa.setQtdLugares((String) list_qtd_lugares.getSelectedItem());
         mesa.setObs(txtObservacoes_Sel.getText());
-       
+        mesa.setNumMesa((String) cbxNumMesa.getSelectedItem());
         
         try{
             this.conectar.insertSQL("INSERT INTO Mesas ("
@@ -60,7 +60,7 @@ public class SelMesas extends javax.swing.JFrame {
         txtObservacoes_Sel = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        txtReservante_sel = new javax.swing.JTextField();
+        cbxNumMesa = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         list_qtd_lugares = new javax.swing.JComboBox<>();
         jLabel10 = new javax.swing.JLabel();
@@ -118,7 +118,7 @@ public class SelMesas extends javax.swing.JFrame {
         btnVoltar_sel.setForeground(new java.awt.Color(116, 2, 2));
         btnVoltar_sel.setText("Voltar");
         btnVoltar_sel.setBorder(null);
-        btnVoltar_sel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnVoltar_sel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnVoltar_sel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVoltar_selActionPerformed(evt);
@@ -129,7 +129,7 @@ public class SelMesas extends javax.swing.JFrame {
         lbl_voltar.setForeground(new java.awt.Color(116, 2, 2));
         lbl_voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/VOLTAR.png"))); // NOI18N
         lbl_voltar.setToolTipText("");
-        lbl_voltar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lbl_voltar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.add(lbl_voltar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/PROXIMO.png"))); // NOI18N
@@ -165,15 +165,10 @@ public class SelMesas extends javax.swing.JFrame {
         jLabel11.setText("Reservante ");
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 130, -1, -1));
 
-        txtReservante_sel.setBackground(new java.awt.Color(255, 255, 255));
-        txtReservante_sel.setFont(new java.awt.Font("Malgun Gothic", 0, 14)); // NOI18N
-        txtReservante_sel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        txtReservante_sel.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtReservante_selActionPerformed(evt);
-            }
-        });
-        jPanel1.add(txtReservante_sel, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 150, 220, 40));
+        cbxNumMesa.setBackground(new java.awt.Color(255, 255, 255));
+        cbxNumMesa.setFont(new java.awt.Font("Malgun Gothic", 1, 12)); // NOI18N
+        cbxNumMesa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mesa 01", "Mesa 02", "Mesa 03", "Mesa 04", " " }));
+        jPanel1.add(cbxNumMesa, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 150, 190, 40));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/QTD.png"))); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 130, -1, -1));
@@ -358,10 +353,6 @@ public class SelMesas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_list_qtd_lugares1ActionPerformed
 
-    private void txtReservante_selActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtReservante_selActionPerformed
-
-    }//GEN-LAST:event_txtReservante_selActionPerformed
-
     private void btnVoltar_selActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltar_selActionPerformed
 //                MesasD mesa = new MesasD();
 //                mesa.show();
@@ -410,6 +401,7 @@ public class SelMesas extends javax.swing.JFrame {
     private javax.swing.JButton btnCadastrar_Sel1;
     private javax.swing.JButton btnVoltar_sel;
     private javax.swing.JButton btnVoltar_sel1;
+    private javax.swing.JComboBox<String> cbxNumMesa;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -438,6 +430,5 @@ public class SelMesas extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> list_qtd_lugares1;
     private javax.swing.JTextField txtObservacoes_Sel;
     private javax.swing.JTextField txtObservacoes_Sel1;
-    private javax.swing.JTextField txtReservante_sel;
     // End of variables declaration//GEN-END:variables
 }

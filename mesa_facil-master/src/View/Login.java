@@ -2,7 +2,7 @@
 package view;
 
 import Classes.Cliente;
-import conexão.MySQL;
+import Conexao.MySQL;
 import javax.swing.JOptionPane;
 
 
@@ -12,6 +12,8 @@ public class Login extends javax.swing.JFrame {
     SelMesas Menu = new SelMesas();
     MySQL conectar = new MySQL();
     Cliente cliente = new Cliente();
+   
+
     
     public Login() {
         initComponents();

@@ -1,7 +1,7 @@
 
 package view;
 import Classes.Cliente;
-import conexão.MySQL;
+import Conexao.MySQL;
 import java.awt.Toolkit;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;

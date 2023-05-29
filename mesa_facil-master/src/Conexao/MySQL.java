@@ -1,13 +1,19 @@
-
-package conexão;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Conexao;
 
 import java.sql.Connection;
-import java.sql.Statement;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-//import com.mysql.jdbc.Driver;  RETIRAR DEPOIS DE COLOCAR O DRIVER
+import java.sql.Statement;
 
+/**
+ *
+ * @author cauas
+ */
 public class MySQL {
     private Connection conn = null; //variável de conexão com o banco
     private Statement statement; //variável de manipulação do SQL
@@ -15,8 +21,8 @@ public class MySQL {
     
     private String servidor = "localhost:3306";
     private String nomeDoBanco = "MesaFacil";
-    private String usuario = "axel";
-    private String senha = "axel123";
+    private String usuario = "root";
+    private String senha = "C@ca12345";
     
     //Construtor    
     public MySQL(){
