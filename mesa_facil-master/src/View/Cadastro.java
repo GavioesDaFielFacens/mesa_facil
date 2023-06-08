@@ -17,7 +17,7 @@ public class Cadastro extends javax.swing.JFrame {
     }
     
     
-        public void cadastraUsuario(Cliente cliente){
+     public void cadastraUsuario(Cliente cliente){
         this.conectar.conectaBanco();
         
         cliente.setNome(txtNome_cad.getText());
@@ -112,7 +112,7 @@ public class Cadastro extends javax.swing.JFrame {
         btnEntrar_cad.setText("ENTRAR");
         btnEntrar_cad.setBorder(null);
         btnEntrar_cad.setContentAreaFilled(false);
-        btnEntrar_cad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnEntrar_cad.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnEntrar_cad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEntrar_cadActionPerformed(evt);
@@ -176,7 +176,7 @@ public class Cadastro extends javax.swing.JFrame {
         btnCadastrar_cad.setBorder(null);
         btnCadastrar_cad.setBorderPainted(false);
         btnCadastrar_cad.setContentAreaFilled(false);
-        btnCadastrar_cad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCadastrar_cad.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnCadastrar_cad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCadastrar_cadActionPerformed(evt);
